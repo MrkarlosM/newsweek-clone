@@ -64,7 +64,7 @@
 
 .nav-mid a {
   border-left: 1px solid grey;
-  padding: 0 9px;
+  padding: 0 6px;
   color: black;
   font-weight: 700;
 }
@@ -82,9 +82,28 @@
 .form-control {
   padding: 0;
   height: 100%;
+  position: relative;
 }
 
 .form-control:focus{
   border: none;
   box-shadow: none;
+}
+
+.form-inline {
+  width: 50px;
+}
+
+.bi-search {
+  position: absolute;
+  right: 120px;
+}
+
+.nav-link {
+  padding: 0 0 0 20px;
+  color: black;
+}
+
+.nav-link a {
+  font-size: 16px;
 }
