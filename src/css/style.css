@@ -46,7 +46,7 @@
 
 .trapezide {
   position: absolute;
-  right: 100px;
+  right: 70px;
   width: 0;
   height: 0;
   border-top: 15px solid #f72210;
@@ -57,16 +57,18 @@
 .box {
   position: absolute;
   right: 0;
-  width: 100px;
+  width: 71px;
   height: 15px;
   background-color: red;
 }
 
+/* .nav-mid {
+  width: 1366px;
+} */
+
 .nav-mid a {
-  border-left: 1px solid grey;
-  padding: 0 6px;
   color: black;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .nav-mid ul {
@@ -76,27 +78,27 @@
 
 .nav-mid li {
   line-height: 20px;
-  text-align: center;
   margin: 15px 0;
 }
+
 .form-control {
   padding: 0;
   height: 100%;
-  position: relative;
 }
 
-.form-control:focus{
+.form-control:focus {
   border: none;
   box-shadow: none;
 }
 
 .form-inline {
-  width: 50px;
+  width: 70%;
+  position: relative;
 }
 
 .bi-search {
   position: absolute;
-  right: 120px;
+  right: 0;
 }
 
 .nav-link {
@@ -106,4 +108,8 @@
 
 .nav-link a {
   font-size: 16px;
+}
+
+.form-inline {
+  background-color: red;
 }
