@@ -63,7 +63,28 @@
 }
 
 .nav-mid a {
-  border-right: 1px solid grey;
-  height: auto;
+  border-left: 1px solid grey;
+  padding: 0 9px;
+  color: black;
+  font-weight: 700;
+}
+
+.nav-mid ul {
+  height: 20px;
   padding: 0;
+}
+
+.nav-mid li {
+  line-height: 20px;
+  text-align: center;
+  margin: 15px 0;
+}
+.form-control {
+  padding: 0;
+  height: 100%;
+}
+
+.form-control:focus{
+  border: none;
+  box-shadow: none;
 }
