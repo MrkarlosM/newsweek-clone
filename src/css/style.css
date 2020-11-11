@@ -20,3 +20,44 @@
 .mb {
   margin-bottom: 100px;
 }
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-logo .nav-link {
+  color: white;
+}
+
+.login {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rounded-pill {
+  font-size: 20px;
+  font-weight: bold;
+  /* padding: 0; */
+}
+.search-btn {
+  border: none;
+  outline: none;
+}
+
+.trapezide {
+  position: absolute;
+  right: 100px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #f72210;
+  border-left: 14px solid transparent;
+  margin-left: 20px;
+}
+
+.box {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 15px;
+  background-color: red;
+}
