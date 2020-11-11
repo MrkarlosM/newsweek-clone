@@ -5,3 +5,18 @@
 .container-M {
   display: flex;
 }
+
+.col {
+  padding: 0;
+}
+
+.mid {
+  width: 100px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.mb {
+  margin-bottom: 100px;
+}
