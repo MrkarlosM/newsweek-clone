@@ -1,5 +1,10 @@
 /* HEADER */
 
+body > * {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* HEADER-LOGO */
 .nav-logo {
   background-color: red;
 }
@@ -26,6 +31,9 @@
   font-weight: bold;
   /* padding: 0; */
 }
+
+/* HEADER-MID */
+
 .search-btn {
   border: none;
   outline: none;
@@ -36,20 +44,25 @@
 
 .tri {
   position: absolute;
-  right: 50px;
+  right: 70px;
   width: 0;
   height: 0;
-  border-top: 13px solid #f72210;
-  border-left: 12px solid transparent;
+  border-top: 12px solid #f72210;
+  border-left: 11px solid transparent;
   margin-left: 20px;
 }
 
 .rec {
   position: absolute;
   right: 0;
-  width: 50px;
-  height: 13px;
+  width: 70px;
+  height: 12px;
   background-color: red;
+}
+
+.nav-mid {
+  max-width: 98%;
+  font-size: 18px;
 }
 
 .nav-mid a {
@@ -59,7 +72,7 @@
 
 .nav-mid li {
   line-height: 10px;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .form-control:focus {
@@ -69,6 +82,7 @@
 
 .form-inline {
   position: relative;
+  height: 100%;
 }
 
 .bi-search {
@@ -81,13 +95,15 @@
   color: black;
 }
 
-.nav-mid .nav-link:hover,
-.nav-bot .nav-link:nth-child(-n + 1):hover {
+.nav-link:hover {
   color: red;
 }
 
-.nav-link a {
-  font-size: 16px;
+/* HEADER-BOT */
+
+.nav-bot .nav-link {
+  /* width: 80%; */
+  color: rgb(128, 127, 132);
 }
 
 /* BODY */
