@@ -32,9 +32,6 @@ body > * {
 }
 .container--myturn {
   grid-area: container--myturn;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
 }
 
 /* HEADER-LOGO */
@@ -141,20 +138,6 @@ body > * {
 
 /* BODY */
 
-.mb {
-  margin-bottom: 100px;
-}
-
-.col {
-  padding: 0;
-}
-
-.mid {
-  width: 100px;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-}
 
 .img-container {
   position: relative;
@@ -168,6 +151,20 @@ body > * {
   font-size: 17px;
   color: #f72210;
   font-weight: bold;
+}
+
+.card-category-sponsor {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  padding: 8px 15px 9px;
+  font-size: 17px;
+  color: #3581f4;
+  font-weight: bold;
+}
+
+.card-category-sponsor p {
+  margin: 0;
 }
 
 .card-category p {
@@ -193,7 +190,13 @@ h6 {
   font-weight: bold;
 }
 
-.container--card__myturn {
+.col-md {
+  padding: 0 10px;
+}
+
+.card-title .myturn-title h5{
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 .debate-container {
