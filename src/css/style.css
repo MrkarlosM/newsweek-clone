@@ -133,7 +133,7 @@ body > * {
 
 .card-category {
   position: absolute;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
   padding: 8px 15px 9px;
   font-size: 17px;
@@ -154,5 +154,39 @@ body > * {
 h6 {
   color: gray;
   text-transform: uppercase;
+  font-weight: bold;
+}
 
+.container--myturn img {
+  background-color: red;
+  width: 160px;
+}
+
+.myturn-title {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.debate-container {
+  display: flex;
+  align-items: center;
+}
+
+.container--debate img {
+  width: 64px;
+}
+
+.debate-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.debate-text {
+  font-size: 14px;
+  color: grey;
+}
+
+.debate-text span {
+  font-weight: bold;
 }
