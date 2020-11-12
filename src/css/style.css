@@ -57,7 +57,7 @@ body > * {
   right: 0;
   width: 70px;
   height: 12px;
-  background-color: red;
+  background-color: #f72210;
 }
 
 .nav-mid {
@@ -125,4 +125,34 @@ body > * {
   height: 200px;
   margin: 0;
   padding: 0;
+}
+
+.img-container {
+  position: relative;
+}
+
+.card-category {
+  position: absolute;
+  background-color: rgba(255,255,255,.9);
+  bottom: 0;
+  padding: 8px 15px 9px;
+  font-size: 17px;
+  color: #f72210;
+  font-weight: bold;
+}
+
+.card-category p {
+  margin: 0;
+}
+
+.feature-title {
+  font-size: 24px;
+  width: 100%;
+  font-weight: bold;
+}
+
+h6 {
+  color: gray;
+  text-transform: uppercase;
+
 }
