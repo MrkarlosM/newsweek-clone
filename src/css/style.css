@@ -4,6 +4,39 @@ body > * {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr minmax(270px, 420px) 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "container--feature container--topstory container--debate"
+    "container--feature container--myturn container--debate"
+    "container--sponsored__left . container--sponsored__right";
+  gap: 0;
+}
+
+.container--feature {
+  grid-area: container--feature;
+}
+.container--sponsored__right {
+  grid-area: container--sponsored__right;
+}
+.container--sponsored__left {
+  grid-area: container--sponsored__left;
+}
+.container--topstory {
+  grid-area: container--topstory;
+}
+.container--debate {
+  grid-area: container--debate;
+}
+.container--myturn {
+  grid-area: container--myturn;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+}
+
 /* HEADER-LOGO */
 .nav-logo {
   background-color: red;
@@ -108,10 +141,6 @@ body > * {
 
 /* BODY */
 
-.main {
-  display: flex;
-}
-
 .mb {
   margin-bottom: 100px;
 }
@@ -155,18 +184,16 @@ h6 {
   color: gray;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 15px
-}
-
-.container--myturn img {
-  background-color: red;
-  width: 160px;
+  margin-top: 15px;
 }
 
 .myturn-title {
   color: grey;
   font-size: 16px;
   font-weight: bold;
+}
+
+.container--card__myturn {
 }
 
 .debate-container {
@@ -182,6 +209,7 @@ h6 {
 .debate-title {
   font-size: 17px;
   font-weight: bold;
+  margin: 0;
 }
 
 .debate-text {
@@ -228,7 +256,19 @@ h6 {
   padding: 0;
 }
 
-.opinion-body h5{
+.opinion-body h5 {
   padding-left: 25px;
   padding-top: 25px;
+}
+
+.opinion-container {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.container--sponsored__right img {
+  width: 100%;
+}
+
+.aside col {
+  background-color: red;
 }
