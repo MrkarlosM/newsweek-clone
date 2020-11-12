@@ -1,35 +1,22 @@
+/* HEADER */
+
 .nav-logo {
   background-color: red;
-}
-
-.container-M {
-  display: flex;
-}
-
-.col {
-  padding: 0;
-}
-
-.mid {
-  width: 100px;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-}
-
-.mb {
-  margin-bottom: 100px;
 }
 
 .navbar-nav {
   width: 100%;
 }
 
+.nav-link-date {
+  margin: 0;
+}
+
 .nav-logo .nav-link {
   color: white;
 }
 
-.login {
+.nav-login {
   font-size: 20px;
   font-weight: bold;
 }
@@ -42,48 +29,37 @@
 .search-btn {
   border: none;
   outline: none;
+  padding: 0;
+  height: 100%;
+  width: 100px;
 }
 
-.trapezide {
+.tri {
   position: absolute;
-  right: 70px;
+  right: 50px;
   width: 0;
   height: 0;
-  border-top: 15px solid #f72210;
-  border-left: 14px solid transparent;
+  border-top: 13px solid #f72210;
+  border-left: 12px solid transparent;
   margin-left: 20px;
 }
 
-.box {
+.rec {
   position: absolute;
   right: 0;
-  width: 71px;
-  height: 15px;
+  width: 50px;
+  height: 13px;
   background-color: red;
 }
-
-/* .nav-mid {
-  width: 1366px;
-} */
 
 .nav-mid a {
   color: black;
   font-weight: bold;
 }
 
-.nav-mid ul {
-  height: 20px;
-  padding: 0;
-}
-
 .nav-mid li {
-  line-height: 20px;
+  line-height: 10px;
   margin: 15px 0;
-}
-
-.form-control {
-  padding: 0;
-  height: 100%;
 }
 
 .form-control:focus {
@@ -92,7 +68,6 @@
 }
 
 .form-inline {
-  width: 70%;
   position: relative;
 }
 
@@ -101,15 +76,37 @@
   right: 0;
 }
 
-.nav-link {
-  padding: 0 0 0 20px;
+.nav-mid .nav-link,
+.nav-bot .nav-link {
   color: black;
+}
+
+.nav-mid .nav-link:hover,
+.nav-bot .nav-link:nth-child(-n + 1):hover {
+  color: red;
 }
 
 .nav-link a {
   font-size: 16px;
 }
 
-.form-inline {
-  background-color: red;
+/* BODY */
+
+.container-Main {
+  display: flex;
+}
+
+.mb {
+  margin-bottom: 100px;
+}
+
+.col {
+  padding: 0;
+}
+
+.mid {
+  width: 100px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
 }
