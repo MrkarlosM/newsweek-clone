@@ -7,11 +7,12 @@ body > * {
 .main {
   display: grid;
   grid-template-columns: 1fr minmax(270px, 420px) 1fr;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
     "container--feature container--topstory container--debate"
     "container--feature container--myturn container--debate"
-    "container--sponsored__left . container--sponsored__right";
+    "container--sponsored__left container--culture container--sponsored__right"
+    "container--stem container--morestories .";
   gap: 0;
 }
 
@@ -32,6 +33,18 @@ body > * {
 }
 .container--myturn {
   grid-area: container--myturn;
+}
+
+.container--culture {
+  grid-area: container--culture;
+}
+
+.container--morestories {
+  grid-area: container--morestories;
+}
+
+.container--stem {
+  grid-area: container--stem;
 }
 
 /* HEADER-LOGO */
@@ -138,7 +151,6 @@ body > * {
 
 /* BODY */
 
-
 .img-container {
   position: relative;
 }
@@ -194,7 +206,7 @@ h6 {
   padding: 0 10px;
 }
 
-.card-title .myturn-title h5{
+.card-title .myturn-title h5 {
   font-size: 16px;
   margin-top: 5px;
 }
@@ -228,9 +240,9 @@ h6 {
   border-top: 4px solid #d9d9d9;
 }
 
-.card {
-  border-radius: 0;
-  border: 0;
+.card-img .car-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .two-lines {
@@ -274,4 +286,25 @@ h6 {
 
 .aside col {
   background-color: red;
+}
+
+.card-category-culture {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-category-culture p {
+  margin: 0;
+  background-color: #c2d4d7;
+  padding: 2px 5px;
+}
+
+.container--morestories img {
+  width: 95px;
+}
+
+.container-morestory__article {
+  width: 315px;
 }
