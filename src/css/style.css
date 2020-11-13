@@ -308,3 +308,46 @@ h6 {
 .container-morestory__article {
   width: 315px;
 }
+
+/*Bottom*/
+.page-bottom {
+  margin-top: 20px;
+  left: auto;
+  top: auto;
+}
+
+.magazine {
+  padding-top: 10px;
+}
+
+.magazine .n-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+}
+
+.n-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.flex-xs {
+  display: flex;
+}
+
+.n-title .icon-n {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
