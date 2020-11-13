@@ -223,15 +223,12 @@ h6 {
   display: flex;
   align-items: center;
   border-bottom: 4px solid #d9d9d9;
-
 }
-
 
 .debate-title {
   font-size: 17px;
   font-weight: bold;
   margin: 0;
-  width: 100%;
 }
 
 .debate-text {
@@ -247,10 +244,9 @@ h6 {
   border-top: 4px solid #d9d9d9;
 }
 
-.debate-card img{
+.debate-card img {
   width: 63px;
 }
-
 
 .card-img .car-img-top {
   border-top-left-radius: 0;
@@ -321,6 +317,19 @@ h6 {
   width: 95px;
 }
 
-.container-morestory__article {
-  width: 315px;
+.morestories-box {
+  max-width: 300px;
 }
+
+.container-morestory__article h5,
+.container-morestory__article p {
+  width: 290px;
+}
+
+.container-morestory__article p {
+  font-size: 15px;
+}
+
+/* .opinion-figure img {
+  width: 63px;
+} */
