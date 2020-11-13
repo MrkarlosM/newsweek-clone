@@ -1,22 +1,16 @@
-/* HEADER */
-
 body > * {
   font-family: "Roboto Condensed", sans-serif;
 }
-
+/* 
 .main {
   max-width: 980px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 270px 400px 270px;
   grid-template-rows: repeat(50, 185px);
-  /* grid-template-areas:
-    "container--feature container--topstory container--debate"
-    "container--feature container--myturn container--debate"
-    "container--sponsored__left container--culture container--sponsored__right"
-    "container--stem container--morestories ."; */
+  
   gap: 20px;
-  /* background-color: blue; */
+  
 }
 
 .container--feature {
@@ -68,7 +62,7 @@ body > * {
   grid-row: 20 / span 20;
 }
 
-/* HEADER-LOGO */
+
 .nav-logo {
   background-color: red;
 }
@@ -93,10 +87,10 @@ body > * {
 .rounded-pill {
   font-size: 20px;
   font-weight: bold;
-  /* padding: 0; */
+  
 }
 
-/* HEADER-MID */
+
 
 .search-btn {
   border: none;
@@ -174,13 +168,13 @@ body > * {
   color: red;
 }
 
-/* HEADER-BOT */
+
 
 .nav-bot .nav-link {
   color: rgb(128, 127, 132);
 }
 
-/* BODY */
+
 
 .img-container {
   position: relative;
@@ -355,11 +349,13 @@ h6 {
   font-size: 15px;
 }
 
-/* .opinion-figure img {
-  width: 63px;
-} */
-
 .col {
   height: 200px;
   background-color: red;
+} */
+
+.logo {
+  min-width: 150px;
+  max-width: 200px;
+  fill: white;
 }
