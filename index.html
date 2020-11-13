@@ -1345,14 +1345,19 @@
 
     <header class="header container-fluid p-0">
       <nav
-        class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm"
-        style="background-color: red"
+        class="navbar navbar-expand-lg navbar-dark py-0 align-items-center py-lg-5"
+        style="background-color: red; height: 50px"
       >
-        <div class="container d-flex">
-          <p class="d-none d-lg-block">Fri, Nov 13, 2020</p>
+        <div class="container-fluid">
+          <p
+            class="d-none d-lg-block pt-3"
+            style="color: white; font-size: 17px"
+          >
+            Fri, Nov 13, 2020
+          </p>
           <a href="#" class="navbar-brand">
             <svg
-              class="d-inline-block align-middle mr-2 logo"
+              class="d-inline-block align-middle logo"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1361,8 +1366,6 @@
               viewBox="0 0 395.6 60"
               style="enable-background: new 0 0 395.6 60"
               xml:space="preserve"
-              width="100%"
-              height="100%"
             >
               <g>
                 <path
@@ -1372,8 +1375,18 @@
               </g>
             </svg>
           </a>
-          <div>
-            <i class="fa fa-user pr-3" style="color: white; opacity: 0.7"></i>
+          <div class="nav-btn d-flex align-items-center">
+            <i
+              class="fa fa-user pr-3 d-md-none d-lg-none"
+              style="color: white; opacity: 0.7"
+            ></i>
+            <p
+              class="d-none d-md-block mb-0 pr-3"
+              style="color: white; font-weight: bold; font-size: 18px"
+            >
+              LOGIN
+            </p>
+
             <button
               type="button"
               class="bg-warning text-uppercase font-weight-bolder px-3"
@@ -1381,6 +1394,7 @@
             >
               Subscribe
             </button>
+
             <button
               type="button"
               data-toggle="collapse"
@@ -1389,29 +1403,86 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
               class="navbar-toggler"
+              style="outline: none"
             >
-              <span class="navbar-toggler-icon" style="fill: white"></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a href="#" class="nav-link"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Contact</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </nav>
+
+      <div
+        id="navbarSupportedContent"
+        class="collapse navbar-collapse d-lg-flex flex-direction-row"
+      >
+        <ul
+          class="navbar-nav list-unstyled flex-lg-row mid-nav-bar"
+          style="
+            background-color: white;
+            line-height: 5px;
+            font-size: 19px;
+            font-weight: bold;
+          "
+        >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right">U.S.</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right">World</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Business</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Tech & Science</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Culture</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Newsgeek</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Sports</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Health</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >The Debate</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3 border-right"
+            >Vantage</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">Weather</a>
+
+          <button type="button" style="width: 100px; height: 20px">
+            Search
+          </button>
+        </ul>
+      </div>
+      <div
+        id="navbarSupportedContent"
+        class="collapse navbar-collapse d-lg-flex flex-direction-row border-top border-bottom"
+      >
+        <ul
+          class="navbar-nav list-unstyled flex-lg-row px-4 bot-nav-bar"
+          style="
+            background-color: white;
+            line-height: 5px;
+            font-size: 16px;
+            font-weight: bold;
+          "
+        >
+          <a
+            href="#"
+            class="nav-link p-lg-2 p-xl-3 my-3 disabled"
+            style="color: black"
+            >TRENDING</a
+          >
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">JOE BIDEN</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">DONALD TRUMP</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">2020 ELECTION</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">CORONAVIRUS</a>
+          <a href="#" class="nav-link p-lg-2 p-xl-3 my-3">STIMULUS PACKAGE</a>
+        </ul>
+      </div>
     </header>
 
     <script

@@ -355,7 +355,19 @@ h6 {
 } */
 
 .logo {
-  min-width: 150px;
+  min-width: 130px;
   max-width: 200px;
   fill: white;
+}
+
+.mid-nav-bar a {
+  color: black;
+}
+.bot-nav-bar a {
+  color: #847f84;
+}
+
+.mid-nav-bar a:hover,
+.bot-nav-bar a:hover {
+  color: red;
 }
