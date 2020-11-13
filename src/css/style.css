@@ -8,46 +8,64 @@ body > * {
   max-width: 980px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr minmax(270px, 400px) 270px;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas:
+  grid-template-columns: 270px 400px 270px;
+  grid-template-rows: repeat(50, 185px);
+  /* grid-template-areas:
     "container--feature container--topstory container--debate"
     "container--feature container--myturn container--debate"
     "container--sponsored__left container--culture container--sponsored__right"
-    "container--stem container--morestories .";
+    "container--stem container--morestories ."; */
   gap: 20px;
   /* background-color: blue; */
 }
 
 .container--feature {
   grid-area: container--feature;
+  grid-column: 1;
+  grid-row: 1 / span 20;
 }
 .container--sponsored__right {
   grid-area: container--sponsored__right;
+  grid-column: 3;
+  grid-row: 6 / span 20;
 }
 .container--sponsored__left {
   grid-area: container--sponsored__left;
+  grid-column: 1;
+  grid-row: 11 / span 20;
 }
 .container--topstory {
   grid-area: container--topstory;
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }
 .container--debate {
   grid-area: container--debate;
+  grid-column: 3;
+  grid-row: 1 / span 2;
 }
 .container--myturn {
   grid-area: container--myturn;
+  grid-column: 2;
+  grid-row: 3 / span 2;
 }
 
 .container--culture {
   grid-area: container--culture;
+  grid-column: 2;
+  grid-row: 6 / span 3;
 }
 
 .container--morestories {
   grid-area: container--morestories;
+  grid-column: 2;
+  grid-row: 8 / span 3;
 }
 
 .container--stem {
   grid-area: container--stem;
+  grid-column: 1;
+  grid-row: 20 / span 20;
 }
 
 /* HEADER-LOGO */
@@ -340,3 +358,8 @@ h6 {
 /* .opinion-figure img {
   width: 63px;
 } */
+
+.col {
+  height: 200px;
+  background-color: red;
+}
