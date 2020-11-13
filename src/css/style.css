@@ -356,7 +356,7 @@ h6 {
 
 .logo {
   min-width: 130px;
-  max-width: 200px;
+  max-width: 250px;
   fill: white;
 }
 
@@ -370,4 +370,40 @@ h6 {
 .mid-nav-bar a:hover,
 .bot-nav-bar a:hover {
   color: red;
+}
+
+.form {
+  position: relative;
+}
+
+.btn-search,
+.fa-search,
+.input-search {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.fa-search {
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+.container-mid-nav-bar {
+  position: relative;
+}
+
+.input-search:focus .mid-nav-bar a {
+  display: none;
+}
+
+.trapezoid {
+  position: absolute;
+  height: 0;
+  top: 0;
+  right: 0;
+  width: 70px;
+  border-top: 15px solid red;
+  border-left: 15px solid transparent;
 }
