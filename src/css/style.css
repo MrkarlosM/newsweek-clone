@@ -5,16 +5,18 @@ body > * {
 }
 
 .main {
+  max-width: 980px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr minmax(270px, 400px) 1fr;
+  grid-template-columns: 1fr minmax(270px, 400px) 270px;
   grid-template-rows: repeat(4, auto);
   grid-template-areas:
     "container--feature container--topstory container--debate"
     "container--feature container--myturn container--debate"
     "container--sponsored__left container--culture container--sponsored__right"
     "container--stem container--morestories .";
-  gap: 10px;
-  background-color: blue;
+  gap: 20px;
+  /* background-color: blue; */
 }
 
 .container--feature {
@@ -211,20 +213,25 @@ h6 {
   margin-top: 5px;
 }
 
-.debate-container {
+.debate-containertop {
   display: flex;
   align-items: center;
-  border-top: 1px solid gray;
+  border-top: 4px solid #d9d9d9;
 }
 
-.container--debate img {
-  width: 64px;
+.debate-containerbot {
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #d9d9d9;
+
 }
+
 
 .debate-title {
   font-size: 17px;
   font-weight: bold;
   margin: 0;
+  width: 100%;
 }
 
 .debate-text {
@@ -239,6 +246,11 @@ h6 {
 .debate-card {
   border-top: 4px solid #d9d9d9;
 }
+
+.debate-card img{
+  width: 63px;
+}
+
 
 .card-img .car-img-top {
   border-top-left-radius: 0;
@@ -269,6 +281,10 @@ h6 {
   border-bottom: 4px solid #d9d9d9;
   margin: 0 15px;
   padding: 0;
+}
+
+.debate-botcard {
+  /* border-bottom: 1px solid #d9d9d9; */
 }
 
 .opinion-body h5 {
