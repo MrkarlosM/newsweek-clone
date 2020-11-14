@@ -2,6 +2,8 @@ body > * {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* HEADER */
+
 .logo {
   min-width: 130px;
   max-width: 250px;
@@ -19,11 +21,6 @@ body > * {
 .bot-nav-bar a:hover {
   color: red;
 }
-
-/* .input-search {
-  position: absolute;
-  right: 50px;
-} */
 
 .btn-search,
 .fa-search,
@@ -43,20 +40,6 @@ body > * {
   display: none;
 }
 
-.input-search:active + .btn-search,
-.input-search:focus + .btn-search {
-  display: none;
-}
-
-.form:active + .mid-nav-bar,
-.form:focus + .mid-nav-bar {
-  display: none;
-}
-
-.mid-nav-bar {
-  /* display: none; */
-}
-
 .trapezoid {
   position: absolute;
   height: 0;
@@ -67,25 +50,16 @@ body > * {
   border-left: 15px solid transparent;
 }
 
-.caja {
-  position: relative;
-}
+/* BODY */
 
-.col-1:active + .col-2,
-.col-1:focus + .col-2 {
-  display: none;
-}
-
-/* 
 .main {
   max-width: 980px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 270px 400px 270px;
   grid-template-rows: repeat(50, 185px);
-  
+
   gap: 20px;
-  
 }
 
 .container--feature {
@@ -136,7 +110,6 @@ body > * {
   grid-column: 1;
   grid-row: 20 / span 20;
 }
-
 
 .img-container {
   position: relative;
@@ -314,4 +287,4 @@ h6 {
 .col {
   height: 200px;
   background-color: red;
-} */
+}
