@@ -52,6 +52,37 @@ body > * {
 
 /* BODY */
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(autofill, auto);
+  gap: 5px;
+  justify-content: center;
+}
+
+.container--topstory {
+  grid-row-end: span 2;
+}
+
+.container--feautre {
+  grid-row-end: span 13;
+}
+
+.container--debate {
+  grid-row-end: span 10;
+}
+
+.container--morestories {
+  grid-row-end: span 12;
+}
+
+.container--myturn {
+  grid-row-end: span 1;
+}
+
+.container--culture {
+  grid-row-end: span 1;
+}
+
 .card-category {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.9);
