@@ -1,6 +1,37 @@
 body > * {
   font-family: "Roboto Condensed", sans-serif;
+  max-width: 1320px;  
 }
+
+.container{
+  max-width: 1320px;
+}
+
+.container--feature {
+  grid-area: container--feature;
+}
+
+.container--topstory {
+  grid-area: container--topstory;
+}
+
+.container--myturn {
+  grid-area: container--myturn;
+}
+
+.container--culture {
+  grid-area: container--culture;
+}
+
+.container--morestories {
+  grid-area: container--morestories;
+}
+
+.container--debate {
+  grid-area: container--debate;
+}
+
+
 
 /* HEADER */
 
@@ -52,54 +83,22 @@ body > * {
 
 /* BODY */
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(autofill, auto);
-  gap: 5px;
-  justify-content: center;
-}
-
-.container--topstory {
-  grid-row-end: span 2;
-}
-
-.container--feautre {
-  grid-row-end: span 13;
-}
-
-.container--debate {
-  grid-row-end: span 10;
-}
-
-.container--morestories {
-  grid-row-end: span 12;
-}
-
-.container--myturn {
-  grid-row-end: span 1;
-}
-
-.container--culture {
-  grid-row-end: span 1;
+.img-container{
+  position: relative;;
 }
 
 .card-category {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
-  padding: 8px 15px 9px;
+  margin: 0;
   font-size: 17px;
   color: #f72210;
   font-weight: bold;
 }
 
-.card-category p {
-  margin: 0;
-}
-
 .feature-title {
   font-size: 24px;
-  /* width: 100%; */
   font-weight: bold;
 }
 
@@ -114,10 +113,6 @@ h6 {
   color: grey;
   font-size: 16px;
   font-weight: bold;
-}
-
-.col-md {
-  padding: 0 10px;
 }
 
 .card-title .myturn-title h5 {
@@ -156,15 +151,6 @@ h6 {
   border-top: 4px solid #d9d9d9;
 }
 
-.debate-card img {
-  width: 63px;
-}
-
-.card-img .car-img-top {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
 .two-lines {
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
@@ -191,11 +177,6 @@ h6 {
   padding: 0;
 }
 
-.opinion-body h5 {
-  padding-left: 25px;
-  padding-top: 25px;
-}
-
 .opinion-container {
   border-bottom: 1px solid #d9d9d9;
 }
@@ -210,22 +191,14 @@ h6 {
 .card-category-culture p {
   margin: 0;
   background-color: #c2d4d7;
-  padding: 2px 5px;
-}
-
-.container--morestories img {
-  width: 95px;
-}
-
-.morestories-box {
-  /* max-width: 300px; */
-}
-
-.container-morestory__article h5,
-.container-morestory__article p {
-  width: 290px;
 }
 
 .container-morestory__article p {
   font-size: 15px;
 }
+
+
+.container--debate .card-img{
+  width: 63px;
+}
+]

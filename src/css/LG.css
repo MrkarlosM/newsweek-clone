@@ -1,3 +1,12 @@
-body {
-  background-color: red;
+.container {
+  display: grid;
+  grid-template-columns: 300px 500px auto;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "container--feature container--topstory container--debate"
+    "container--feature container--myturn container--debate"
+    "container--feature container--culture container--debate"
+    "container--feature container--morestories container--debate"
+    ". . container--debate";
+  gap: 10px;
 }
