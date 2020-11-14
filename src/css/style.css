@@ -62,27 +62,13 @@ body > * {
   font-weight: bold;
 }
 
-.card-category-sponsor {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  padding: 8px 15px 9px;
-  font-size: 17px;
-  color: #3581f4;
-  font-weight: bold;
-}
-
-.card-category-sponsor p {
-  margin: 0;
-}
-
 .card-category p {
   margin: 0;
 }
 
 .feature-title {
   font-size: 24px;
-  width: 100%;
+  /* width: 100%; */
   font-weight: bold;
 }
 
@@ -183,10 +169,6 @@ h6 {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.container--sponsored__right img {
-  width: 100%;
-}
-
 .card-category-culture {
   position: absolute;
   bottom: 0;
@@ -205,7 +187,7 @@ h6 {
 }
 
 .morestories-box {
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 .container-morestory__article h5,
