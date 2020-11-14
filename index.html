@@ -11,6 +11,18 @@
     <link
       rel="stylesheet"
       media="screen and (max-width: 767px)"
+      href="./src/css/MD.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1023px) and (min-width: 766px)
+    "
+      href="./src/css/LG.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
       href="./src/css/mobile.css"
     />
     <link
@@ -200,7 +212,35 @@
     <main class="container px-0 mx-0">
       <section class="row">
         <div
-          class="col-12 col-md-12 container container--feature px-lg-0 px-md-0 order-2"
+          class="col-12 col-md-12 container container--topstory px-lg-0 px-md-0"
+        >
+          <h6>Top Story</h6>
+          <div class="card mb-3 border-0">
+            <div class="img-container">
+              <img
+                src="./Assets/Top-Story.webp"
+                class="card-img-top image-fluid"
+                alt="..."
+              />
+              <div class="card-category">
+                <p>WORLD</p>
+              </div>
+            </div>
+            <div class="card-body px-lg-0 py-lg-2">
+              <h5 class="card-title feature-title">
+                Iran Uranium Levels Raise Nuclear Concerns, but Tehran Touts
+                Transparency
+              </h5>
+              <p class="card-text">
+                Iran now has a stockpile of low-enriched uranium some 12 times
+                larger than is allowed under the 2015 nuclear deal.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-12 container container--feature px-lg-0 px-md-0"
         >
           <h6>Feature Stories</h6>
           <div class="card border-0">
@@ -320,702 +360,707 @@
             </div>
           </div>
         </div>
-        <div
-          class="col-12 col-md-12 container container--topstory px-lg-0 px-md-0 order-1"
-        >
-          <h6>Top Story</h6>
-          <div class="card mb-3 border-0">
-            <div class="img-container">
-              <img
-                src="./Assets/Top-Story.webp"
-                class="card-img-top image-fluid"
-                alt="..."
-              />
-              <div class="card-category">
-                <p>WORLD</p>
+
+        <div class="container container--debate px-lg-0 px-md-0">
+          <h6>The Debate</h6>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters debate-containertop py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/will-chamberlain.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body pl-md-2 pr-md-0">
+                  <h5 class="card-title debate-title">
+                    Reform Section 230 Now
+                  </h5>
+                  <p class="card-text debate-text">
+                    BY <span> WILL CHAMBERLAIN</span>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card-body px-lg-0 py-lg-2">
-              <h5 class="card-title feature-title">
-                Iran Uranium Levels Raise Nuclear Concerns, but Tehran Touts
-                Transparency
-              </h5>
-              <p class="card-text">
-                Iran now has a stockpile of low-enriched uranium some 12 times
-                larger than is allowed under the 2015 nuclear deal.
-              </p>
+          </div>
+          <div class="two-lines">
+            <p card-img-overlay>VS</p>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters debate-containerbot py-md-2">
+              <div class="col-md-8">
+                <div class="card-body px-md-0">
+                  <h5 class="card-title debate-title">
+                    Leave Section 230 Alone
+                  </h5>
+                  <p class="card-text debate-text debate-botcard">
+                    BY <span> MATTHEW FEENEY</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img
+                  src="./Assets/will-chamberlain.png"
+                  class="card-img ml-md-4"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <h6>OPINION</h6>
+
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters opinion-container py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 my-md-0 debate-card border-0">
+            <div class="row no-gutters py-md-2">
+              <div class="col-md-3">
+                <img
+                  src="./Assets/jason-rantz.png"
+                  class="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body py-md-0">
+                  <h5 class="card-title debate-title">
+                    Real Diversity Is Good. Fake Diversity Isn't | Opinion
+                  </h5>
+                  <p class="card-text debate-text pt-md-1">
+                    <span>By JASON RANTZ</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container container--morestories px-lg-0 px-md-0">
+          <h6>MORE STORIES</h6>
+
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div
+              class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
+            >
+              <div class="col-md-3">
+                <img
+                  src="./Assets/refuse.webp"
+                  class="card-img rounded-0"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8 pl-md-2 morestories-box">
+                <div
+                  class="card-body px-md-0 container-morestory__article py-md-0"
+                >
+                  <h5 class="card-title debate-title pb-md-2">
+                    Refuse Fascism Group to Counterprotest 'Million MAGA March'
+                    in Washington
+                  </h5>
+                  <p class="card-text morestories-text">
+                    Other rallies including "Stop the Steal" and "March for
+                    Trump" will be taking place this Saturday in the capital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container container--myturn px-lg-0 px-md-0">
+          <h6>My Turn</h6>
+          <div class="row">
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card border-0">
+                <img
+                  src="./Assets/canda-emigration.jpg"
+                  class="card-img-top"
+                  alt="img-article"
+                />
+
+                <div class="card-body px-lg-0 py-lg-2">
+                  <h5 class="card-title myturn-title">
+                    Donald Trump Plans 2024 Run, Could Announce by End of Year:
+                    Report
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container container--culture px-lg-0 px-md-0">
+          <div class="article">
+            <h6>CULTURE & TRAVEL</h6>
+            <div class="row">
+              <div class="col">
+                <div class="card border-0">
+                  <div class="img-container">
+                    <img
+                      src="./Assets/abe-lincoln-times-square.webp"
+                      class="card-img-top"
+                      alt="img-article"
+                    />
+                    <div class="card-category-culture">
+                      <p>JOE BIDEN</p>
+                    </div>
+                  </div>
+                  <div class="card-body px-lg-0 py-lg-2">
+                    <h5 class="card-title myturn-title">
+                      n Photos: Celebrations Over Biden Victory in Streets
+                      Across U.S.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card border-0">
+                  <div class="img-container">
+                    <img
+                      src="./Assets/abe-lincoln-times-square.webp"
+                      class="card-img-top"
+                      alt="img-article"
+                    />
+                    <div class="card-category-culture">
+                      <p>JOE BIDEN</p>
+                    </div>
+                  </div>
+                  <div class="card-body px-lg-0 py-lg-2">
+                    <h5 class="card-title myturn-title">
+                      n Photos: Celebrations Over Biden Victory in Streets
+                      Across U.S.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card border-0">
+                  <div class="img-container">
+                    <img
+                      src="./Assets/abe-lincoln-times-square.webp"
+                      class="card-img-top"
+                      alt="img-article"
+                    />
+                    <div class="card-category-culture">
+                      <p>JOE BIDEN</p>
+                    </div>
+                  </div>
+                  <div class="card-body px-lg-0 py-lg-2">
+                    <h5 class="card-title myturn-title">
+                      n Photos: Celebrations Over Biden Victory in Streets
+                      Across U.S.
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <div class="container container--debate px-lg-0 px-md-0">
-        <h6>The Debate</h6>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters debate-containertop py-md-2">
-            <div class="col-md-3">
-              <img
-                src="./Assets/will-chamberlain.png"
-                class="card-img"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body pl-md-2 pr-md-0">
-                <h5 class="card-title debate-title">Reform Section 230 Now</h5>
-                <p class="card-text debate-text">
-                  BY <span> WILL CHAMBERLAIN</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="two-lines">
-          <p card-img-overlay>VS</p>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters debate-containerbot py-md-2">
-            <div class="col-md-8">
-              <div class="card-body px-md-0">
-                <h5 class="card-title debate-title">Leave Section 230 Alone</h5>
-                <p class="card-text debate-text debate-botcard">
-                  BY <span> MATTHEW FEENEY</span>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <img
-                src="./Assets/will-chamberlain.png"
-                class="card-img ml-md-4"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-
-        <h6>OPINION</h6>
-
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters opinion-container py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3 my-md-0 debate-card border-0">
-          <div class="row no-gutters py-md-2">
-            <div class="col-md-3">
-              <img src="./Assets/jason-rantz.png" class="card-img" alt="..." />
-            </div>
-            <div class="col-md-9">
-              <div class="card-body py-md-0">
-                <h5 class="card-title debate-title">
-                  Real Diversity Is Good. Fake Diversity Isn't | Opinion
-                </h5>
-                <p class="card-text debate-text pt-md-1">
-                  <span>By JASON RANTZ</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container container--morestories px-lg-0 px-md-0">
-        <h6>MORE STORIES</h6>
-
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card border-0">
-          <div
-            class="row no-gutters debate-container border-top pt-md-3 pb-md-2"
-          >
-            <div class="col-md-3">
-              <img
-                src="./Assets/refuse.webp"
-                class="card-img rounded-0"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8 pl-md-2 morestories-box">
-              <div
-                class="card-body px-md-0 container-morestory__article py-md-0"
-              >
-                <h5 class="card-title debate-title pb-md-2">
-                  Refuse Fascism Group to Counterprotest 'Million MAGA March' in
-                  Washington
-                </h5>
-                <p class="card-text morestories-text">
-                  Other rallies including "Stop the Steal" and "March for Trump"
-                  will be taking place this Saturday in the capital.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container container--myturn px-lg-0 px-md-0">
-        <h6>My Turn</h6>
-        <div class="row">
-          <div class="col">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="card border-0">
-              <img
-                src="./Assets/canda-emigration.jpg"
-                class="card-img-top"
-                alt="img-article"
-              />
-
-              <div class="card-body px-lg-0 py-lg-2">
-                <h5 class="card-title myturn-title">
-                  Donald Trump Plans 2024 Run, Could Announce by End of Year:
-                  Report
-                </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container container--culture px-lg-0 px-md-0">
-        <div class="article">
-          <h6>CULTURE & TRAVEL</h6>
-          <div class="row">
-            <div class="col">
-              <div class="card border-0">
-                <div class="img-container">
-                  <img
-                    src="./Assets/abe-lincoln-times-square.webp"
-                    class="card-img-top"
-                    alt="img-article"
-                  />
-                  <div class="card-category-culture">
-                    <p>JOE BIDEN</p>
-                  </div>
-                </div>
-                <div class="card-body px-lg-0 py-lg-2">
-                  <h5 class="card-title myturn-title">
-                    n Photos: Celebrations Over Biden Victory in Streets Across
-                    U.S.
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-md">
-              <div class="card border-0">
-                <div class="img-container">
-                  <img
-                    src="./Assets/abe-lincoln-times-square.webp"
-                    class="card-img-top"
-                    alt="img-article"
-                  />
-                  <div class="card-category-culture">
-                    <p>JOE BIDEN</p>
-                  </div>
-                </div>
-                <div class="card-body px-lg-0 py-lg-2">
-                  <h5 class="card-title myturn-title">
-                    n Photos: Celebrations Over Biden Victory in Streets Across
-                    U.S.
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-md">
-              <div class="card border-0">
-                <div class="img-container">
-                  <img
-                    src="./Assets/abe-lincoln-times-square.webp"
-                    class="card-img-top"
-                    alt="img-article"
-                  />
-                  <div class="card-category-culture">
-                    <p>JOE BIDEN</p>
-                  </div>
-                </div>
-                <div class="card-body px-lg-0 py-lg-2">
-                  <h5 class="card-title myturn-title">
-                    n Photos: Celebrations Over Biden Victory in Streets Across
-                    U.S.
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
 
     <script
