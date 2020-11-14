@@ -390,7 +390,7 @@ padding: 0 7px;
   margin-right: 10px;
 }
 
-.title-editors {
+.title-editors  {
   font-size: 24px;
   font-weight: bold;
 }
@@ -398,4 +398,19 @@ padding: 0 7px;
 .text-editors {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-picks {
+  border-top: 1px solid #d9d9d9;
+}
+
+.titling {
+  color: #f72210;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.title-picks {
+  font-size: 24px;
+  font-weight: bold;
 }
