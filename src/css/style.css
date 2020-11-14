@@ -20,10 +20,10 @@ body > * {
   color: red;
 }
 
-.input-search {
+/* .input-search {
   position: absolute;
   right: 50px;
-}
+} */
 
 .btn-search,
 .fa-search,
@@ -31,13 +31,7 @@ body > * {
   border: none;
   outline: none;
   background-color: white;
-}
-
-.fa-search {
-  position: absolute;
-  top: 18px;
-  right: 50px;
-  z-index: 999;
+  transition: 1000ms;
 }
 
 .container-mid-nav-bar {
@@ -46,11 +40,12 @@ body > * {
 
 .input-search:active + .mid-nav-bar,
 .input-search:focus + .mid-nav-bar {
-  visibility: hidden;
+  display: none;
 }
 
-.form {
-  background-color: red;
+.input-search:active + .btn-search,
+.input-search:focus + .btn-search {
+  display: none;
 }
 
 .form:active + .mid-nav-bar,
