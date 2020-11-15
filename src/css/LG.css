@@ -8,12 +8,10 @@
     "container--feature container--culture container--opinion"
     "container--feature container--morestories container--opinion"
     ". . container--opinion";
-  gap: 30px;
-  padding: 0 30px;
 }
 
 .container--feature {
-  min-width: 275px;
+  min-width: 265px;
   max-width: 372px;
 }
 
@@ -22,7 +20,12 @@
   max-width: 536px;
 }
 
-.container-opinion {
+.container--opinion {
   min-width: 274px;
+  max-width: 371px;
+}
+
+.container--debate {
+  min-width: 265px;
   max-width: 371px;
 }
