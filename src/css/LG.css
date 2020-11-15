@@ -4,10 +4,10 @@
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "container--feature container--topstory container--debate"
-    "container--feature container--myturn container--debate"
-    "container--feature container--culture container--debate"
-    "container--feature container--morestories container--debate"
-    ". . container--debate";
+    "container--feature container--myturn container--opinion"
+    "container--feature container--culture container--opinion"
+    "container--feature container--morestories container--opinion"
+    ". . container--opinion";
   gap: 30px;
   padding: 0 30px;
 }
@@ -22,7 +22,7 @@
   max-width: 536px;
 }
 
-.container--debate {
+.container-opinion {
   min-width: 274px;
   max-width: 371px;
 }

@@ -228,3 +228,8 @@ img {
 .container--myturn h5:hover {
   text-decoration: none;
 }
+
+.container--morestories img {
+  max-width: 95px;
+  float: left;
+}
