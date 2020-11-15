@@ -101,7 +101,7 @@ img {
   background-color: white;
   transition: 1000ms;
 }
-. .container-mid-nav-bar {
+.container-mid-nav-bar {
   position: relative;
 }
 
@@ -115,9 +115,9 @@ img {
   height: 0;
   top: 0;
   right: 0;
-  width: 70px;
-  border-top: 15px solid red;
-  border-left: 15px solid transparent;
+  width: 66px;
+  border-top: 12px solid red;
+  border-left: 13px solid transparent;
 }
 
 /* BODY */
@@ -225,7 +225,8 @@ img {
   top: 15px;
 }
 
-.container--myturn h5:hover {
+.container--myturn h5:hover,
+.container--culture h5:hover {
   text-decoration: none;
 }
 
