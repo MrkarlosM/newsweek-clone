@@ -1,9 +1,10 @@
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: 260px repeat(5, auto);
   grid-template-areas:
     "container--feature container--topstory container--debate"
+    "container--feature container--topstory container--opinion"
     "container--feature container--myturn container--opinion"
     "container--feature container--culture container--opinion"
     "container--feature container--morestories container--opinion"
