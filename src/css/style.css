@@ -234,3 +234,10 @@ img {
   max-width: 95px;
   float: left;
 }
+
+.container--culture figcaption {
+  padding: 2px 4px;
+  font-size: 13px;
+  background-color: #c2d4d7;
+  color: black;
+}
