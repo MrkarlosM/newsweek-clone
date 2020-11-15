@@ -1,12 +1,26 @@
+body {
+  background-color: white;
+}
+
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
-    "container--feature container--topstory ."
-    "container--feature container--myturn ."
-    "container--feature container--culture ."
-    "container--feature container--morestories ."
-    "container--debate container--debate .";
-  gap: 10px;
+    "container--feature container--topstory"
+    "container--feature container--myturn"
+    "container--feature container--culture"
+    "container--feature container--morestories"
+    "container--debate container--debate ";
+  gap: 30px;
+}
+
+.container--feature {
+  min-width: 339px;
+  max-width: 438px;
+}
+
+.container--topstory {
+  min-width: 414px;
+  max-width: 536px;
 }
