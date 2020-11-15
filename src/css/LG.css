@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 300px 500px auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "container--feature container--topstory container--debate"
@@ -8,5 +8,21 @@
     "container--feature container--culture container--debate"
     "container--feature container--morestories container--debate"
     ". . container--debate";
-  gap: 10px;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.container--feature {
+  min-width: 275px;
+  max-width: 372px;
+}
+
+.container--topstory {
+  min-width: 397px;
+  max-width: 536px;
+}
+
+.container--debate {
+  min-width: 274px;
+  max-width: 371px;
 }
