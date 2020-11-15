@@ -1,9 +1,9 @@
-ody > * {
+body > * {
   font-family: "Roboto Condensed", sans-serif;
   max-width: 1320px;
 }
 
-h2 {
+.sub-container h2 {
   font-size: 16px;
   font-weight: 700;
   color: rgba(3, 3, 3, 0.4);
@@ -18,10 +18,16 @@ h5 {
 h5:hover {
   text-decoration: underline;
   text-decoration-color: red;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
 }
 
 .container--culture p,
-.container--feature p {
+.container--feature p,
+.container--morestories p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: rgb(51, 51, 51);
@@ -53,6 +59,7 @@ h5:hover {
 
 .container--debate {
   grid-area: container--debate;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .block {
@@ -90,8 +97,7 @@ h5:hover {
   background-color: white;
   transition: 1000ms;
 }
-
-.container-mid-nav-bar {
+. .container-mid-nav-bar {
   position: relative;
 }
 
@@ -140,21 +146,17 @@ h5:hover {
 }
 
 .debate-containertop {
-  display: flex;
-  align-items: center;
   border-top: 4px solid #d9d9d9;
 }
 
 .debate-containerbot {
-  display: flex;
-  align-items: center;
   border-bottom: 4px solid #d9d9d9;
 }
 
 .debate-title {
   font-size: 17px;
   font-weight: bold;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 .debate-text {
@@ -166,41 +168,9 @@ h5:hover {
   font-weight: bold;
 }
 
-.debate-card {
-  border-top: 4px solid #d9d9d9;
-}
-
-.two-lines {
-  border-top: 1px solid #d9d9d9;
+/* .opinion-container {
   border-bottom: 1px solid #d9d9d9;
-  height: 32px;
-  position: relative;
-}
-
-.two-lines p {
-  width: 32px;
-  height: 32px;
-  z-index: 999;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  background-color: black;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.top-bot {
-  border-top: 4px solid #d9d9d9;
-  border-bottom: 4px solid #d9d9d9;
-  margin: 0 15px;
-  padding: 0;
-}
-
-.opinion-container {
-  border-bottom: 1px solid #d9d9d9;
-}
+} */
 
 .card-category-culture {
   position: absolute;
@@ -218,36 +188,39 @@ h5:hover {
   font-size: 15px;
 }
 
-.container--debate p {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.container--debate .card-img {
+.container--debate .card-img,
+.container--opinion .card-img {
   width: 63px;
 }
 
-.deco {
-  padding: 23px 0;
+.debate-vs {
+  padding: 23px 0 7px 0;
 }
 
-.c-vs {
-  left: 48%;
-  top: 8px;
+.vs {
+  left: 49%;
+  top: 0px;
   color: white;
   border-radius: 50%;
-  padding: 5px 8px;
+  padding: 5px 8px 4px 8px;
+  font-size: 14px;
   background-color: black;
 }
+
 .inline-t {
   width: 100%;
   border-bottom: 1px solid #d9d9d9;
   height: 1px;
-  top: 22px;
+  top: 13px;
 }
 
 .inline-b {
   width: 100%;
   border-bottom: 1px solid #d9d9d9;
   height: 1px;
-  top: 24px;
+  top: 15px;
+}
+
+.container--myturn h5:hover {
+  text-decoration: none;
 }
