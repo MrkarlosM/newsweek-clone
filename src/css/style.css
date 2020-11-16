@@ -240,7 +240,12 @@ h6 {
   border-top: 4px solid #d9d9d9;
 }
 
-.card-img .car-img-top {
+.car-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-img{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -326,6 +331,15 @@ h6 {
 .card-img-top {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-img {
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
 }
 
 .category {
@@ -400,10 +414,6 @@ padding: 0 7px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.section-picks {
-  border-top: 1px solid #d9d9d9;
-}
-
 .titling {
   color: #f72210;
   font-size: 22px;
@@ -412,5 +422,10 @@ padding: 0 7px;
 
 .title-picks {
   font-size: 24px;
+  font-weight: bold;
+}
+
+.title-picks-right {
+  font-size: 17px;
   font-weight: bold;
 }
