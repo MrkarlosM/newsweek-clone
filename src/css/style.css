@@ -112,10 +112,9 @@ img {
   position: relative;
 }
 
-.input-search:active + .mid-nav-bar,
-.input-search:focus + .mid-nav-bar {
+.input-search:active + .mid-nav-bar a,
+.input-search:focus + .mid-nav-bar a {
   display: none;
-  background-color: red;
 }
 
 .trapezoid {
