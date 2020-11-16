@@ -1,6 +1,10 @@
 /*Bottom*/
 body {
-  background-color: black;
+  background-color: gray;
+}
+
+.text-danger {
+  color: #f72210!important;
 }
 
 .container-fluid .container {
@@ -8,26 +12,12 @@ body {
 }
 
 .text-magazine {
-  background-color: #f4f5f6;
+  background-color: #f8f9fa;
   font-weight: bold;
 }
 
 .col-md {
   padding: 0 15px;
-}
-
-.card-img-top {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.card-img {
-border-top-left-radius: 0;
-border-top-right-radius: 0;
-border-bottom-left-radius: 0;
-border-bottom-right-radius: 0;
 }
 
 .category {
@@ -130,6 +120,10 @@ padding: 0 7px;
 .form-control {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.btn-danger {
+  background-color: #f72210;
 }
 
 .btn1 {
