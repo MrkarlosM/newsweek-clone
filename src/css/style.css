@@ -3,6 +3,26 @@ body > * {
   max-width: 1320px;
 }
 
+.container-mid-nav-bar a:hover {
+  background-color: black;
+  color: white;
+}
+
+.container-mid-nav-bar a {
+  margin: 0;
+  padding: 0;
+  line-height: 17px;
+}
+
+.container-mid-nav-bar,
+.container-bot-nav-bar {
+  width: 200px;
+}
+
+.bot-nav-bar a:hover {
+  color: red;
+}
+
 .sub-container h2 {
   font-size: 16px;
   font-weight: 700;
@@ -66,18 +86,10 @@ img {
   grid-area: container--opinion;
 }
 
-.block {
-  width: 100%;
-  height: 19px;
-  background-color: #f4f5f7;
-  border-top: 1px solid #e7e7e7;
-}
-
 /* HEADER */
 
 .logo {
-  min-width: 130px;
-  max-width: 250px;
+  width: 132px;
   fill: white;
 }
 
@@ -88,19 +100,14 @@ img {
   color: #847f84;
 }
 
-.mid-nav-bar a:hover,
-.bot-nav-bar a:hover {
-  color: red;
-}
-
 .btn-search,
 .fa-search,
 .input-search {
   border: none;
   outline: none;
   background-color: white;
-  transition: 1000ms;
 }
+
 .container-mid-nav-bar {
   position: relative;
 }
@@ -108,6 +115,7 @@ img {
 .input-search:active + .mid-nav-bar,
 .input-search:focus + .mid-nav-bar {
   display: none;
+  background-color: red;
 }
 
 .trapezoid {
@@ -121,6 +129,13 @@ img {
 }
 
 /* BODY */
+
+.block {
+  width: 100%;
+  height: 19px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e7e7e7;
+}
 
 .container-figure {
   position: relative;
@@ -171,10 +186,6 @@ img {
 .debate-text span {
   font-weight: bold;
 }
-
-/* .opinion-container {
-  border-bottom: 1px solid #d9d9d9;
-} */
 
 .card-category-culture {
   position: absolute;

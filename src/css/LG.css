@@ -1,3 +1,22 @@
+.logo {
+  width: 396px;
+}
+
+.mid-nav-bar a:hover,
+.bot-nav-bar a:hover {
+  color: red;
+  background-color: white;
+}
+
+.container-mid-nav-bar ul {
+  line-height: 5px;
+}
+
+.container-mid-nav-bar,
+.container-bot-nav-bar {
+  width: 100%;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
