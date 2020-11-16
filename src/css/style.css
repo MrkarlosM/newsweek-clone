@@ -1,319 +1,3 @@
-/* HEADER */
-
-body > * {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: 1fr minmax(270px, 420px) 1fr;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas:
-    "container--feature container--topstory container--debate"
-    "container--feature container--myturn container--debate"
-    "container--sponsored__left container--culture container--sponsored__right"
-    "container--stem container--morestories .";
-  gap: 0;
-}
-
-.container--feature {
-  grid-area: container--feature;
-}
-.container--sponsored__right {
-  grid-area: container--sponsored__right;
-}
-.container--sponsored__left {
-  grid-area: container--sponsored__left;
-}
-.container--topstory {
-  grid-area: container--topstory;
-}
-.container--debate {
-  grid-area: container--debate;
-}
-.container--myturn {
-  grid-area: container--myturn;
-}
-
-.container--culture {
-  grid-area: container--culture;
-}
-
-.container--morestories {
-  grid-area: container--morestories;
-}
-
-.container--stem {
-  grid-area: container--stem;
-}
-
-/* HEADER-LOGO */
-.nav-logo {
-  background-color: red;
-}
-
-.navbar-nav {
-  width: 100%;
-}
-
-.nav-link-date {
-  margin: 0;
-}
-
-.nav-logo .nav-link {
-  color: white;
-}
-
-.nav-login {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.rounded-pill {
-  font-size: 20px;
-  font-weight: bold;
-  /* padding: 0; */
-}
-
-/* HEADER-MID */
-
-.search-btn {
-  border: none;
-  outline: none;
-  padding: 0;
-  height: 100%;
-  width: 100px;
-}
-
-.tri {
-  position: absolute;
-  right: 70px;
-  width: 0;
-  height: 0;
-  border-top: 12px solid #f72210;
-  border-left: 11px solid transparent;
-  margin-left: 20px;
-}
-
-.rec {
-  position: absolute;
-  right: 0;
-  width: 70px;
-  height: 12px;
-  background-color: #f72210;
-}
-
-.nav-mid {
-  max-width: 98%;
-  font-size: 18px;
-}
-
-.nav-mid a {
-  color: black;
-  font-weight: bold;
-}
-
-.nav-mid li {
-  line-height: 10px;
-  margin: 10px 0;
-}
-
-.form-control:focus {
-  border: none;
-  box-shadow: none;
-}
-
-.form-inline {
-  position: relative;
-  height: 100%;
-}
-
-.bi-search {
-  position: absolute;
-  right: 0;
-}
-
-.nav-mid .nav-link,
-.nav-bot .nav-link {
-  color: black;
-}
-
-.nav-link:hover {
-  color: red;
-}
-
-/* HEADER-BOT */
-
-.nav-bot .nav-link {
-  /* width: 80%; */
-  color: rgb(128, 127, 132);
-}
-
-/* BODY */
-
-.img-container {
-  position: relative;
-}
-
-.card-category {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  padding: 8px 15px 9px;
-  font-size: 17px;
-  color: #f72210;
-  font-weight: bold;
-}
-
-.card-category-sponsor {
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
-  bottom: 0;
-  padding: 8px 15px 9px;
-  font-size: 17px;
-  color: #3581f4;
-  font-weight: bold;
-}
-
-.card-category-sponsor p {
-  margin: 0;
-}
-
-.card-category p {
-  margin: 0;
-}
-
-.feature-title {
-  font-size: 24px;
-  width: 100%;
-  font-weight: bold;
-}
-
-h6 {
-  color: gray;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-.myturn-title {
-  color: grey;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.col-md {
-  padding: 0 10px;
-}
-
-.card-title .myturn-title h5 {
-  font-size: 16px;
-  margin-top: 5px;
-}
-
-.debate-container {
-  display: flex;
-  align-items: center;
-  border-top: 1px solid gray;
-}
-
-.container--debate img {
-  width: 64px;
-}
-
-.debate-title {
-  font-size: 17px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.debate-text {
-  font-size: 14px;
-  color: grey;
-}
-
-.debate-text span {
-  font-weight: bold;
-}
-
-.debate-card {
-  border-top: 4px solid #d9d9d9;
-}
-
-.car-img-top {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.card-img{
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.two-lines {
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-  height: 4px;
-  position: relative;
-}
-
-.two-lines p {
-  position: absolute;
-  left: 116px;
-  top: -11px;
-  z-index: 999;
-  margin: 0;
-  color: white;
-  background-color: black;
-  border-radius: 50%;
-  padding: 2px 6px;
-}
-
-.top-bot {
-  border-top: 4px solid #d9d9d9;
-  border-bottom: 4px solid #d9d9d9;
-  margin: 0 15px;
-  padding: 0;
-}
-
-.opinion-body h5 {
-  padding-left: 25px;
-  padding-top: 25px;
-}
-
-.opinion-container {
-  border-bottom: 1px solid #d9d9d9;
-}
-
-.container--sponsored__right img {
-  width: 100%;
-}
-
-.aside col {
-  background-color: red;
-}
-
-.card-category-culture {
-  position: absolute;
-  bottom: 0;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.card-category-culture p {
-  margin: 0;
-  background-color: #c2d4d7;
-  padding: 2px 5px;
-}
-
-.container--morestories img {
-  width: 95px;
-}
-
-.container-morestory__article {
-  width: 315px;
-}
-
 /*Bottom*/
 .container-fluid .container {
   max-width: 1310px;
@@ -412,6 +96,7 @@ padding: 0 7px;
 .text-editors {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
 }
 
 .titling {
@@ -428,4 +113,33 @@ padding: 0 7px;
 .title-picks-right {
   font-size: 17px;
   font-weight: bold;
+}
+
+.card-body p {
+  font-size: 15px;
+}
+
+.bg-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+}
+
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn1 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer {
+  list-style: none outside none;
+  font-size: 14px;
+}
+
+.footer:hover {
+  list-style: none;
+  color: black;
 }
