@@ -3,6 +3,16 @@ body > * {
   max-width: 1320px;
 }
 
+.color-nav {
+  background-color: red; 
+  height: 60px";
+}
+
+.date {
+  color: white; 
+  font-size: 17px;
+}
+
 .mid-nav-bar a {
   color: black;
 }
@@ -379,7 +389,8 @@ img {
   background:
     url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     center center / cover no-repeat;
-  width: 48%;
+  width: 100%;
+  min-height: 150px;
 }
 
 .form-control {
@@ -394,6 +405,10 @@ img {
 .btn1 {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.media {
+  font-size: 26px;
 }
 
 .footer {
