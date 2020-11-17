@@ -5,16 +5,15 @@ body {
 .container {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(7, auto);
   grid-template-areas:
     "container--feature container--topstory"
     "container--feature container--myturn"
     "container--feature container--culture"
     "container--feature container--morestories"
     "container--debate container--debate "
-    "container--opinion container--opinion";
-
-  /* gap: 30px; */
+    "container--opinion container--opinion"
+    "container--signup container--signup";
 }
 
 .container--feature {
