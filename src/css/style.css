@@ -3,9 +3,8 @@ body > * {
   max-width: 1320px;
 }
 
-.container-mid-nav-bar a:hover {
-  background-color: black;
-  color: white;
+.mid-nav-bar a {
+  color: black;
 }
 
 .container-mid-nav-bar a {
@@ -14,13 +13,22 @@ body > * {
   line-height: 17px;
 }
 
-.container-mid-nav-bar,
-.container-bot-nav-bar {
-  width: 200px;
+.bot-nav-bar a {
+  color: #847f84;
+}
+
+.container-mid-nav-bar a:hover {
+  background-color: black;
+  color: white;
 }
 
 .bot-nav-bar a:hover {
   color: red;
+}
+
+.container-mid-nav-bar,
+.container-bot-nav-bar {
+  width: 200px;
 }
 
 .sub-container h2 {
@@ -91,13 +99,6 @@ img {
 .logo {
   width: 132px;
   fill: white;
-}
-
-.mid-nav-bar a {
-  color: black;
-}
-.bot-nav-bar a {
-  color: #847f84;
 }
 
 .btn-search,
@@ -213,7 +214,7 @@ img {
 
 .vs {
   left: 49%;
-  top: 0px;
+  top: 0;
   color: white;
   border-radius: 50%;
   padding: 5px 8px 4px 8px;
@@ -272,6 +273,7 @@ img {
 .category {
   display: flex;
 }
+
 .mag-cat {
   text-transform: uppercase;
   background-color: #f72210;
@@ -318,15 +320,25 @@ img {
 .title-last {
   display: flex;
   justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   font-size: 19px;
 }
 
 .n-icon {
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -364,7 +376,8 @@ img {
 }
 
 .bg-img {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+  background:
+    url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     center center / cover no-repeat;
   width: 48%;
 }
