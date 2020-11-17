@@ -251,3 +251,164 @@ img {
   background-color: #c2d4d7;
   color: black;
 }
+
+.text-danger {
+  color: #f72210 !important;
+}
+
+.container-fluid .container {
+  max-width: 1310px;
+}
+
+.text-magazine {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.col-md {
+  padding: 0 15px;
+}
+
+.category {
+  display: flex;
+}
+.mag-cat {
+  text-transform: uppercase;
+  background-color: #f72210;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 5px;
+  padding: 0 7px;
+}
+
+.cat {
+  text-transform: uppercase;
+  background-color: #f4f5f6;
+  color: #f72210;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 5px;
+  padding: 0 7px;
+}
+
+.mag-card-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  background-color: #f72210;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 7px;
+}
+
+.title-last {
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 19px;
+}
+
+.n-icon {
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+    no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.title-editors {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.text-editors {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+}
+
+.titling {
+  color: #f72210;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.title-picks {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title-picks-right {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 15px;
+}
+
+.bg-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    center center / cover no-repeat;
+  width: 48%;
+}
+
+.form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-danger {
+  background-color: #f72210;
+}
+
+.btn1 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer {
+  list-style: none outside none;
+  font-size: 14px;
+}
+
+.footer:hover {
+  list-style: none;
+  color: black;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .footer {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn1 {
+    border-radius: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title-last {
+    border: none !important;
+  }
+}
