@@ -31,7 +31,7 @@ In this project we made sure to consider to :
 
 ## Live Demo
 
-[Live Demo Link](https://abongsjoel.github.io/Newsweek-clone/)
+[Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/Feature-newsweek/index.html)
 
 👤 **Carlos Martinez**
 
@@ -49,7 +49,7 @@ In this project we made sure to consider to :
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Wusinho/NY-times/issues/).
+Feel free to check the [issues page](https://github.com/MrkarlosM/newsweek-clone/issues).
 
 ## Show your support
 
