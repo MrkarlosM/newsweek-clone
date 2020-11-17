@@ -30,6 +30,10 @@
     ". . container--opinion";
 }
 
+.color-nav {
+  height: 90px;
+}
+
 .container--feature {
   min-width: 265px;
   max-width: 372px;
