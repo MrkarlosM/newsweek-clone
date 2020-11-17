@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas:
+    "container--feature container--topstory"
+    "container--feature container--myturn"
+    "container--feature container--culture"
+    "container--feature container--morestories"
+    "container--debate container--debate "
+    "container--opinion container--opinion"
+    "container--signup container--signup";
+}
+
+.container--feature {
+  min-width: 339.3px;
+  max-width: 438px;
+}
+
+.container--topstory {
+  min-width: 414px;
+  max-width: 536px;
+}
+
+.login-font {
+  font-size: 16px;
+}
