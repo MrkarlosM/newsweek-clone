@@ -31,7 +31,7 @@ In this project we made sure to consider to :
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/Feature-newsweek/index.html)
+[Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/main/index.html)
 
 👤 **Carlos Martinez**
 
