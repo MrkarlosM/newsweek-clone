@@ -104,6 +104,10 @@ img {
   grid-area: container--opinion;
 }
 
+.container--signup {
+  grid-area: container--signup;
+}
+
 /* HEADER */
 
 .logo {

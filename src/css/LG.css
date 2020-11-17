@@ -25,9 +25,9 @@
     "container--feature container--topstory container--debate"
     "container--feature container--topstory container--opinion"
     "container--feature container--myturn container--opinion"
-    "container--feature container--culture container--opinion"
-    "container--feature container--morestories container--opinion"
-    ". . container--opinion";
+    "container--feature container--culture container--signup"
+    "container--feature container--morestories container--signup"
+    ". . container--signup";
 }
 
 .color-nav {
